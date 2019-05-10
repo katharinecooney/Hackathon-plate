@@ -61,3 +61,35 @@ nav {
   margin-left: 10px;
 }
 
+/*************** LANDING SECTION ****************/
+
+.landing-section {
+  background: url('./assets/lily.jpg') center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 69vh;
+}
+
+.landing-section h3 {
+  margin-top: 0;
+}
+
+.landing-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-section form input {
+  margin-top: 10px;
+}
+
+/*************** MISSION ****************/
+
+.mission {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
