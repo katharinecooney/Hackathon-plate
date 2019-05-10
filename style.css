@@ -35,11 +35,29 @@ body {
   }
 }
 
-/* ---- header ---- */
+/*************** NAVBAR ****************/
 
-/* ---- footer ---- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  height: 6vh;
+}
 
-/* ---- components ---- */
+.logo-container {
+  padding-left: 20px;
+}
 
-/* ---- css shame ---- */
+.links-container {
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
 
