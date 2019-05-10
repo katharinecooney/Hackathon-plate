@@ -40,8 +40,11 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  background-color: pink;
   height: 6vh;
+  position: fixed;
+  top: 0;
+  width: 100vw;
 }
 
 .logo-container {
@@ -64,25 +67,36 @@ nav {
 /*************** LANDING SECTION ****************/
 
 .landing-section {
-  background: url('./assets/lily.jpg') center / cover no-repeat;
+  /* background: url('./assets/lily.jpg') center / cover no-repeat; */
+  background-color: purple;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 69vh;
+  height: 75vh;
 }
 
 .landing-section h3 {
   margin-top: 0;
+  padding-top: 90px;
 }
 
 .landing-section form {
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
+  align-items: center;
 }
 
-.landing-section form input {
-  margin-top: 10px;
+.landing-section input {
+  margin-bottom: 8px;
+}
+
+.landing-section button {
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+
 }
 
 /*************** MISSION ****************/
@@ -93,3 +107,47 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+/*************** PARTY SECTION ****************/
+
+.party-section {
+  height: 100vh;
+  background-color: skyblue;
+  /* display: flex; */
+}
+
+.party-container {
+  background: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.party-container img {
+  width: 90vw;
+}
+
+.influencer-container {
+  display: flex;
+  
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.influencer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.influencer img {
+  width: 48%;
+}
+
+
+
+
+/*************** PRODUCT SECTION ****************/
